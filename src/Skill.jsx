@@ -1,6 +1,7 @@
+// eslint-disable-next-line react/prop-types
 const Skill = ({ name, color }) => (
-  <li className="skill" style={{ backgroundColor: color }}>
+  <div className="skill" style={{ backgroundColor: color }}>
     {name}
-  </li>
+  </div>
 );
 export default Skill;
